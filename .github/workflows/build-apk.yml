@@ -25,7 +25,7 @@ jobs:
           channel: 'stable'
 
       - name: Generar estructura del proyecto
-        run: flutter create . --platforms=android
+        run: flutter create . --platforms=android --project-name=cursos_peru_app
 
       - name: Instalar dependencias
         run: flutter pub get
